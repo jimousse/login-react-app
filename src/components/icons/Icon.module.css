@@ -1,0 +1,11 @@
+.icon {
+  display: block;
+}
+
+.valid {
+  fill: var(--validation-green);
+}
+
+.invalid {
+  fill: var(--validation-red);
+}

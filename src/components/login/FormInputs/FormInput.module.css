@@ -1,0 +1,24 @@
+.input {
+  height: 100%;
+  font-size: 1.2rem;
+  font-family: inherit;
+  padding: 1.5rem 2rem;
+  border: none;
+  background-color: hsl(0, 0%, 90%);
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0rem 1rem 3rem rgba(0, 0, 0, 0.2);
+  background-color: hsl(206, 26%, 85%);
+}
+
+.input::placeholder {
+  font-size: 1rem;
+}
+
+.label {
+  display: none;
+}
